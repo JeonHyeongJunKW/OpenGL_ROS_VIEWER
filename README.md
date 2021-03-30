@@ -20,8 +20,18 @@ OpenGL_runner.py의 경우 pyopengl코드를 pygame라이브러리를 기반으�
 - opencv-python 4.2.0.32
 - PyOpenGL 3.1.5
 - PyOpenGL-accelerate 3.1.5
+- rospy 1.14.10
 
 ## 코드 실행방식
-아래와 같이 종속 라이브러리를 설정하여, catkin명령으로 패키지를 만듭니다.
+1. 아래와 같이 종속 라이브러리를 설정하여, catkin명령으로 패키지를 만듭니다.
 
     catkin_create_pkg item_viewer sensor_msgs cv_bridge rospy std_msgs
+    
+2. 위의 코드 3개를 패키지의 src 폴더에 넣고 catkin_make명령으로 빌드합니다.
+3. roscore를 실행하고, 아래의 명령으로 usb 카메라 노드를 실행합니다.
+ 
+    rosrun usb_cam usb_cam_node
+    
+4. 이제 노드를 실행합니다.
+    rosrun item_viewer viewer.py
+    
