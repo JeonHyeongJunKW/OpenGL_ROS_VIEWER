@@ -33,5 +33,13 @@ OpenGL_runner.py의 경우 pyopengl코드를 pygame라이브러리를 기반으�
     `rosrun usb_cam usb_cam_node`
     
 4. 이제 노드를 실행합니다.
+
     `rosrun item_viewer viewer.py`
     
+## 실행된 화면
+
+상자의 회전이나 위아래 이동속도는 약 10ms정도의 지연을 가지도록햇습니다. (나중에 정확한 10ms가 되도록 수정해야함) 
+
+이미지 토픽이름을 바꿔서 실행하고 싶다면, viwer.py의 코드를 수정해야한다.
+
+
