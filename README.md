@@ -42,4 +42,5 @@ OpenGL_runner.py의 경우 pyopengl코드를 pygame라이브러리를 기반으�
 
 이미지 토픽이름을 바꿔서 실행하고 싶다면, viwer.py의 코드를 수정해야합니다.
 
+<img width="40%" src="https://user-images.githubusercontent.com/63538314/112970991-be0cf780-9189-11eb-8802-5c3f690c06fa.gif"/>
 
