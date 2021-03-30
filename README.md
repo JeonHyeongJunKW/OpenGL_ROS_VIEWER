@@ -14,8 +14,14 @@ OpenGL_runner.py의 경우 pyopengl코드를 pygame라이브러리를 기반으�
 ## 구현환경
 - Ubuntu 18.04LTS
 - Python 2.7.17
+
+## 라이브러리
 - pygame 2.0.1
 - opencv-python 4.2.0.32
 - PyOpenGL 3.1.5
 - PyOpenGL-accelerate 3.1.5
 
+## 코드 실행방식
+아래와 같이 종속 라이브러리를 설정하여, catkin명령으로 패키지를 만듭니다.
+
+    catkin_create_pkg item_viewer sensor_msgs cv_bridge rospy std_msgs
